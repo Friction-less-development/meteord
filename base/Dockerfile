@@ -16,3 +16,7 @@ RUN bash $METEORD_DIR/lib/cleanup.sh
 EXPOSE 80
 RUN chmod +x $METEORD_DIR/run_app.sh
 ENTRYPOINT exec $METEORD_DIR/run_app.sh
+
+RUN apt-get update \
+    && apt-get install -y \
+    graphicsmagick
