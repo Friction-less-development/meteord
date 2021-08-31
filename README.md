@@ -6,6 +6,15 @@
 
 Please see the explanation of the [tag variations](#tag-variations) (e.g. `-binbuild`, `-onbuild`) below.
 
+### Node 14 (Meteor 2.3+)
+
+#### Node 14.17.5
+
+* `node-14-base`, `node-14.17.5-base`
+* `node-14-binbuild`, `node-14.17.5-binbuild`
+* `node-14-onbuild`, `node-14.17.5-onbuild`
+* `node-14-devbuild`, `node-14.17.5-devbuild`
+
 ### Node 12 (Meteor 1.9+)
 
 #### Node 12.22.1
