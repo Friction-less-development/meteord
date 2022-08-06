@@ -13,7 +13,7 @@ function clean() {
 cd /tmp
 clean
 
-meteor create --release 2.3.5 hello
+meteor create --release 2.7.3 hello
 cd hello
 echo "FROM abernix/meteord:node-${NODE_VERSION}-devbuild" > Dockerfile
 
