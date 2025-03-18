@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:bookworm
 MAINTAINER Jesse Rosenberger
 
 ENV METEORD_DIR /opt/meteord
