@@ -12,7 +12,7 @@ function clean() {
 cd /tmp
 clean
 
-meteor create --release 2.7.3 hello
+meteor create --release 3.1.2 hello
 cd hello
 echo "process.on('SIGTERM', function () { console.log('SIGTERM RECEIVED'); });" >> server/main.js
 

@@ -2,7 +2,7 @@ FROM abernix/meteord:base
 MAINTAINER Jesse Rosenberger
 
 ARG NODE_VERSION
-ENV NODE_VERSION ${NODE_VERSION:-14.19.3}
+ENV NODE_VERSION ${NODE_VERSION:-22.13.1}
 
 ONBUILD RUN bash $METEORD_DIR/lib/install_meteor.sh
 ONBUILD COPY ./ /app
