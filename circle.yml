@@ -1,10 +1,10 @@
 machine:
   node:
-    version: 22.13.1
+    version: 22.18.0
   services:
     - docker
   environment:
-    NODE_VERSION: 22.13.1
+    NODE_VERSION: 22.18.0
 
 dependencies:
   pre:
