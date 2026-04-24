@@ -19,5 +19,6 @@ mv ${NODE_DIST} /opt/nodejs
 
 ln -sf /opt/nodejs/bin/node /usr/bin/node
 ln -sf /opt/nodejs/bin/npm /usr/bin/npm
+ln -sf /opt/nodejs/bin/npx /usr/bin/npx
 
-npm install --global npm@6
+npm install --global npm@10
